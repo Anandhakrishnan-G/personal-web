@@ -1,9 +1,3 @@
-/**
-* Template Name: iPortfolio - v3.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -212,40 +206,32 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height:auto;
+  padding-bottom: 32%;
   background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
-}
-
-#hero:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
+  background-size:100% auto;
+  background-repeat: no-repeat;
 }
 
 #hero .hero-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
+  padding-right: 10em;
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 64px;
+  margin: 0 0 .5em 0;
+  font-size: 3.3em;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 1em;
   color: #fff;
 }
 
 #hero p {
   color: #fff;
-  margin-bottom: 50px;
-  font-size: 26px;
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -445,6 +431,7 @@ section {
   border: none;
   word-wrap: normal;
   padding-top: 2rem;
+  margin-left: 2rem;
 }
 .card-row{
   margin-left: 4em;
